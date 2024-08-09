@@ -1,0 +1,374 @@
+{
+  "openCoLi": "0.1.0",
+  "codeList": {
+    "info": {
+      "shortName": "GermanFederalStateCodes",
+      "longName": [
+        {
+          "language": "de",
+          "text": "ISO 3166-2 Codes für Deutschland"
+        },
+        {
+          "language": "en",
+          "text": "ISO 3166-2 Codes for Germany"
+        }
+      ],
+      "description": [
+        {
+          "language": "de",
+          "text": "ISO 3166-2 Codes für die Bundesländer in Deutschland"
+        },
+        {
+          "language": "en",
+          "text": "ISO 3166-2 Codes for the federal states of Germany"
+        }
+      ],
+      "agency": {
+        "shortName": "ISO",
+        "longName": "International Organization for Standardization",
+        "url": "https://www.iso.org/"
+      },
+      "version": "2024-07-12",
+      "canonicalUri": "urn:iso:std:iso:3166-2",
+      "canonicalVersionUri": "urn:iso:std:iso:3166-2:2024-07-12",
+      "locationUri": "https://raw.githubusercontent.com/openpotato/opencoli/main/samples/germany.federal-state-codes-2024-07-12.json",
+      "publishedAt": "2024-07-12T10:00:00",
+      "publishedFrom": {
+        "shortName": "OpenCoLi",
+        "url": "https://openpotato.github.io/opencoli/"
+      },
+      "language": "en"
+    },
+    "columnSet": {
+      "columns": [
+        {
+          "id": "code",
+          "name": "Code",
+          "type": "string"
+        },
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "string"
+        }
+      ],
+      "keys": [
+        {
+          "id": "codeKey",
+          "name": "Code Key",
+          "columnRefs": [
+            "code"
+          ]
+        }
+      ]
+    },
+    "dataSet": {
+      "rows": [
+        [
+          {
+            "columnRef": "code",
+            "value": "BW"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Baden-Württemberg"
+              },
+              {
+                "language": "en",
+                "value": "Baden-Württemberg"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "BY"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Bayern"
+              },
+              {
+                "language": "en",
+                "value": "Bavaria"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "BE"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Berlin"
+              },
+              {
+                "language": "en",
+                "value": "Berlin"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "BB"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Brandenburg"
+              },
+              {
+                "language": "en",
+                "value": "Brandenburg"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "HB"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Bremen"
+              },
+              {
+                "language": "en",
+                "value": "Bremen"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "HH"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Hamburg"
+              },
+              {
+                "language": "en",
+                "value": "Hamburg"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "HE"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Hessen"
+              },
+              {
+                "language": "en",
+                "value": "Hesse"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "MV"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Mecklenburg-Vorpommern"
+              },
+              {
+                "language": "en",
+                "value": "Mecklenburg-Western Pomerania"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "NI"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Niedersachsen"
+              },
+              {
+                "language": "en",
+                "value": "Lower Saxony"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "NW"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Nordrhein-Westfalen"
+              },
+              {
+                "language": "en",
+                "value": "North Rhine-Westphalia"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "RP"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Rheinland-Pfalz"
+              },
+              {
+                "language": "en",
+                "value": "Rhineland-Palatinate"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "SL"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Saarland"
+              },
+              {
+                "language": "en",
+                "value": "Saarland"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "SN"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Sachsen"
+              },
+              {
+                "language": "en",
+                "value": "Saxony"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "ST"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Sachsen-Anhalt"
+              },
+              {
+                "language": "en",
+                "value": "Saxony-Anhalt"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "SH"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Schleswig-Holstein"
+              },
+              {
+                "language": "en",
+                "value": "Schleswig-Holstein"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "TH"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Thüringen"
+              },
+              {
+                "language": "en",
+                "value": "Thuringia"
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,438 @@
+{
+  "openCoLi": "0.1.0",
+  "codeList": {
+    "info": {
+      "shortName": "GermanFederalStateCapitals",
+      "longName": [
+        {
+          "language": "de",
+          "text": "Hauptstädte der deutschen Bundesländer"
+        },
+        {
+          "language": "en",
+          "text": "Capitals of the German federal states"
+        }
+      ],
+      "version": "2024-07-12",
+      "canonicalUri": "urn:opencoli-sample:codelist:federal-state-capitals",
+      "canonicalVersionUri": "urn:opencoli-sample:codelist:federal-state-capitals:2024-07-12",
+      "locationUri": "https://raw.githubusercontent.com/openpotato/opencoli/main/samples/germany.federal-state-capitals-2024-07-12.json",
+      "publishedAt": "2024-07-12T10:00:00",
+      "publishedFrom": {
+        "shortName": "OpenCoLi",
+        "url": "https://openpotato.github.io/opencoli/"
+      },
+      "language": "en"
+    },
+    "columnSet": {
+      "columns": [
+        {
+          "id": "code",
+          "name": "Code",
+          "type": "string"
+        },
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "string"
+        },
+        {
+          "id": "federalState",
+          "name": "FederalState",
+          "type": "string"
+        }
+      ],
+      "keys": [
+        {
+          "id": "codeKey",
+          "name": "Code Key",
+          "columnRefs": [
+            "code"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "codeListRef": {
+            "canonicalUri": "urn:iso:std:iso:3166-2",
+            "canonicalVersionUri": "urn:iso:std:iso:3166-2:2024-07-12",
+            "locationUri": "https://raw.githubusercontent.com/openpotato/opencoli/main/samples/germany.federal-state-codes-2024-07-12.json"
+          },
+          "keyRef": "codeKey"
+        }
+      ]
+    },
+    "dataSet": {
+      "rows": [
+        [
+          {
+            "columnRef": "code",
+            "value": "S"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Stuttgart"
+              },
+              {
+                "language": "en",
+                "value": "Stuttgart"
+              }
+            ]
+          },
+          {
+            "columnRef": "federalState",
+            "value": "BW"
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "M"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "München"
+              },
+              {
+                "language": "en",
+                "value": "Munich"
+              }
+            ]
+          },
+          {
+            "columnRef": "federalState",
+            "value": "BY"
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "B"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Berlin"
+              },
+              {
+                "language": "en",
+                "value": "Berlin"
+              }
+            ]
+          },
+          {
+            "columnRef": "federalState",
+            "value": "BE"
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "P"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Potsdam"
+              },
+              {
+                "language": "en",
+                "value": "Potsdam"
+              }
+            ]
+          },
+          {
+            "columnRef": "federalState",
+            "value": "BB"
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "HB"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Bremen"
+              },
+              {
+                "language": "en",
+                "value": "Bremen"
+              }
+            ]
+          },
+          {
+            "columnRef": "federalState",
+            "value": "HB"
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "HH"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Hamburg"
+              },
+              {
+                "language": "en",
+                "value": "Hamburg"
+              }
+            ]
+          },
+          {
+            "columnRef": "federalState",
+            "value": "HH"
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "WI"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Wiesbaden"
+              },
+              {
+                "language": "en",
+                "value": "Wiesbaden"
+              }
+            ]
+          },
+          {
+            "columnRef": "federalState",
+            "value": "HE"
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "SN"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Schwerin"
+              },
+              {
+                "language": "en",
+                "value": "Schwerin"
+              }
+            ]
+          },
+          {
+            "columnRef": "federalState",
+            "value": "MV"
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "H"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Hannover"
+              },
+              {
+                "language": "en",
+                "value": "Hannover"
+              }
+            ]
+          },
+          {
+            "columnRef": "federalState",
+            "value": "NI"
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "D"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Düsseldorf"
+              },
+              {
+                "language": "en",
+                "value": "Düsseldorf"
+              }
+            ]
+          },
+          {
+            "columnRef": "federalState",
+            "value": "NW"
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "MZ"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Mainz"
+              },
+              {
+                "language": "en",
+                "value": "Mainz"
+              }
+            ]
+          },
+          {
+            "columnRef": "federalState",
+            "value": "RP"
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "SB"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Saarbrücken"
+              },
+              {
+                "language": "en",
+                "value": "Saarbrücken"
+              }
+            ]
+          },
+          {
+            "columnRef": "federalState",
+            "value": "SL"
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "DD"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Dresden"
+              },
+              {
+                "language": "en",
+                "value": "Dresden"
+              }
+            ]
+          },
+          {
+            "columnRef": "federalState",
+            "value": "SN"
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "MD"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Magdeburg"
+              },
+              {
+                "language": "en",
+                "value": "Magdeburg"
+              }
+            ]
+          },
+          {
+            "columnRef": "federalState",
+            "value": "ST"
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "KI"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Kiel"
+              },
+              {
+                "language": "en",
+                "value": "Kiel"
+              }
+            ]
+          },
+          {
+            "columnRef": "federalState",
+            "value": "SH"
+          }
+        ],
+        [
+          {
+            "columnRef": "code",
+            "value": "EF"
+          },
+          {
+            "columnRef": "name",
+            "value": [
+              {
+                "language": "de",
+                "value": "Erfurt"
+              },
+              {
+                "language": "en",
+                "value": "Erfurt"
+              }
+            ]
+          },
+          {
+            "columnRef": "federalState",
+            "value": "TH"
+          }
+        ]
+      ]
+    }
+  }
+}
