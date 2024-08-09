@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://openpotato.github.io/opencoli/</loc>
+        <lastmod>2024-08-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openpotato.github.io/opencoli/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openpotato.github.io/opencoli/de/"/>
+    </url>
+    <url>
+        <loc>https://openpotato.github.io/opencoli/change-log/</loc>
+        <lastmod>2024-08-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openpotato.github.io/opencoli/change-log/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openpotato.github.io/opencoli/de/change-log/"/>
+    </url>
+    <url>
+        <loc>https://openpotato.github.io/opencoli/community/</loc>
+        <lastmod>2024-08-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openpotato.github.io/opencoli/community/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openpotato.github.io/opencoli/de/community/"/>
+    </url>
+    <url>
+        <loc>https://openpotato.github.io/opencoli/specification/</loc>
+        <lastmod>2024-08-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openpotato.github.io/opencoli/specification/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openpotato.github.io/opencoli/de/specification/"/>
+    </url>
+    <url>
+        <loc>https://openpotato.github.io/opencoli/de/</loc>
+        <lastmod>2024-08-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openpotato.github.io/opencoli/de/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openpotato.github.io/opencoli/"/>
+    </url>
+    <url>
+        <loc>https://openpotato.github.io/opencoli/de/change-log/</loc>
+        <lastmod>2024-08-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openpotato.github.io/opencoli/de/change-log/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openpotato.github.io/opencoli/change-log/"/>
+    </url>
+    <url>
+        <loc>https://openpotato.github.io/opencoli/de/community/</loc>
+        <lastmod>2024-08-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openpotato.github.io/opencoli/de/community/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openpotato.github.io/opencoli/community/"/>
+    </url>
+    <url>
+        <loc>https://openpotato.github.io/opencoli/de/specification/</loc>
+        <lastmod>2024-08-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openpotato.github.io/opencoli/de/specification/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openpotato.github.io/opencoli/specification/"/>
+    </url>
+</urlset>
